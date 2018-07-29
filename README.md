@@ -4,10 +4,16 @@ How to create a Kotlin project using dropwizard (interactive mode)
 ---
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.udaan.archetypes -DarchetypeArtifactId=dropwizard-kotlin -DarchetypeVersion=1.1.1 -D
+mvn archetype:generate -DarchetypeGroupId=com.udaan.archetypes \
+        -DarchetypeArtifactId=dropwizard-kotlin \
+        -DarchetypeVersion=1.2.0 \
+        -DgroupId=... \
+        -DartifactId=... \
+        -Dversion=... \
+        -Dname=MyNewApp
 ```
 
-(when asked for ``$name`` during project creation via maven, make sure to use a camel case word such as ``HelloWorld`` as it is used to generate Configuration and Application classess such as ``HelloWorldConfiguration.kt`` and ``HelloWorldApplication.kt``. Furthermore, do not include any blank space for the same reason!)
+(if/when asked for ``$name`` during project creation via maven, make sure to use a camel case word such as ``HelloWorld`` as it is used to generate Configuration and Application classess such as ``HelloWorldConfiguration.kt`` and ``HelloWorldApplication.kt``. Furthermore, do not include any blank space for the same reason!)
 
 
 # Credits
