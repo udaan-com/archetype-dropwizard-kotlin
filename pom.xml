@@ -32,8 +32,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/udaan-com/archetype-dropwizard-kotlin.git</connection>
-        <developerConnection>scm:git:ssh://github.com:udaan-com/archetype-dropwizard-kotlin.git</developerConnection>
+        <connection>scm:git:https://github.com/udaan-com/archetype-dropwizard-kotlin.git</connection>
+        <developerConnection>scm:git:https://github.com/udaan-com/archetype-dropwizard-kotlin.git</developerConnection>
         <url>https://github.com/udaan-com/archetype-dropwizard-kotlin/tree/master</url>
     </scm>
 
