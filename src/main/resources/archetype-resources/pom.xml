@@ -22,6 +22,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
         <dropwizard.version>\${dropwizardVersion}</dropwizard.version>
         <kotlin.version>\${kotlinVersion}</kotlin.version>
         <junit.version>\${junitVersion}</junit.version>
